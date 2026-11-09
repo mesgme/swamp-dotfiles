@@ -1,0 +1,17 @@
+manifestVersion: 1
+name: "@puddleworks/dotfiles"
+version: "2026.11.09.1"
+description: "Bring a local or ssh-reachable machine to a declared dotfiles state: files, directory trees, packages (brew/apt), git clones and guarded commands. Idempotent plan, apply and verify."
+repository: "https://github.com/mesgme/swamp-dotfiles"
+license: MIT
+models:
+  - dotfiles.ts
+additionalFiles:
+  - README.md
+  - LICENSE
+labels:
+  - dotfiles
+  - ssh
+  - configuration
+  - macos
+  - ubuntu
